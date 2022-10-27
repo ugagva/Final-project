@@ -1,1 +1,1 @@
-export const loginReducer =()=>{}
+export const loginReducer=()=>{}

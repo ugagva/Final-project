@@ -1,14 +1,14 @@
-import React from 'react';
+
 import {applyMiddleware, combineReducers, compose, createStore} from 'redux';
 import thunk from 'redux-thunk'
 import {loginReducer} from "./login-reducer";
 import {signInReducer} from "./sign-in-reducer";
-import {fogetPassReducer} from "./foget-pass-reducer";
+import {forgotPassReducer} from "./foget-pass-reducer";
 
 const rootReducer  =combineReducers ({
 login:loginReducer,
 signIn:signInReducer,
-forgotPassword:fogetPassReducer,
+forgotPassword:forgotPassReducer,
 })
 
 

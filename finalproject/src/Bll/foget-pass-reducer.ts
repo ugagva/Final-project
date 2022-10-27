@@ -1,1 +1,10 @@
-export const fogetPassReducer =()=>{}
+
+
+
+
+export const forgotPassReducer=()=>{
+     {
+
+    }
+
+}
